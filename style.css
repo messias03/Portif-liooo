@@ -1,0 +1,200 @@
+body{
+    background: rgb(22, 22, 22);
+}
+
+.inicio {
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .div1-inicio{ */
+
+/* }  */
+.h1-inicio {
+    color: rgb(252, 236, 236);
+}
+
+.img1-inicio {
+    height: 100vh;
+}
+
+.img2-inicio {
+    height: 3vh;
+}
+
+.span1-inicio {
+    color: white;
+}
+
+.p1-inicio {
+    font-size: 3rem;
+    color: rgb(56, 56, 56);
+}
+
+.item-line img {
+    height: 4vh;
+    margin-right: 1rem;
+}
+
+.item-line a {
+    color: rgb(56, 56, 56);
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+.item-line {
+    display: flex;
+    align-items: center;
+    margin: 90px 0px;
+}
+
+.inicio-meio {
+    background-color: rgb(22, 22, 22);
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 75%; background-color: #04AA6D;} /* Green */
+.css {width: 70%; background-color: #2196F3;} /* Blue */
+.js {width: 50%; background-color: #f44336;} /* Red */
+.php {width: 20%; background-color: #808080;} /* Dark Grey */
+
+
+
+
+
+
+.h3 {
+    color: rgb(56, 56, 56);
+    font-size: 1.8rem;
+}
+
+.p {
+    color: rgb(56, 56, 56);
+    font-size: 1.5rem;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.danger {
+    background-color: #ffdddd;
+    border-left: 6px solid #f44336;
+}
+
+.conhecimentos {
+    /* background: red;
+    padding: 1rem; */
+}
+
+.p1{
+    color: rgb(56, 56, 56);
+    font-size: 1.3rem;   
+}
+
+.img-chico{
+    height: 250px;
+}
+
+.a{
+    color: red;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+.p-chico{
+    color:  rgb(56, 56, 56);
+    margin-left: 20px; 
+}
+
+.img-login{
+    height: 250px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.div-img{
+display: flex;
+    
+}
+
+.img-gmail{
+    height: 25px;
+}
+
+.p-voltar{
+    color: red;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.img-voltar{
+    height: 25px;
+    margin-top: 20px;
+}
